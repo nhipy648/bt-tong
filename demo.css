@@ -1,0 +1,326 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; font-family:'Roboto', sans-serif;
+
+}
+html,
+body {
+    
+}
+/* Light theme */
+.button-change {
+    position:absolute;
+    z-index:100;
+    right:39px;
+    top:-15px;
+  
+}
+.button-change i {
+    font-size: 40px;
+    color:#ffffff
+}
+#myBody{
+ 
+    background-color:black;
+  }
+ 
+  #switchButton .fa-sun {
+    display: none;
+   
+  }
+  #switchButton .fa-moon {
+    display: block;
+  }
+  
+  /* Dark Theme*/
+  .dark#myBody{
+    background-color:white;
+  }
+  .dark #switchButton {
+   
+  }
+  .dark #switchButton .fa-sun {
+    display: block;
+    
+  }
+  
+  .dark #switchButton .fa-moon {
+    display: none;
+  
+  }
+  .dark .card {
+    background-color: black;
+    color: white;
+  }
+
+.contain {
+         background-image: url(./img/banner1.jpg);
+   width: 100%;
+    background-repeat: none;
+    background-size: cover;
+    height: 1000px;
+    background-attachment:fixed;
+}
+.container{
+  position: relative;
+ padding-top: 30px;
+
+  
+}
+
+.brand-name {
+    font-size: 35px;
+    color: white;
+    font-weight: bolder;
+    margin-left: 50px;
+    
+
+}
+.form-control {
+
+  position: relative;
+}
+.search-icon {
+    position: absolute;
+    right: 78px;
+    top: 17px;
+    font-size: 20px;
+    color: grey;
+}
+.overlay{
+    height: 1000px;
+    width: 100%;
+    top:0%;
+    z-index: 2;
+    position: absolute;
+    overflow: inherit;
+    background: rgb(255,102,0);
+background: linear-gradient(90deg, rgba(255, 102, 0, 0.911) 21%, rgba(0, 0, 0, 0.267) 100%);
+}
+.navbar {
+    z-index: 8;
+    padding-left: 60px;
+}
+.overlay_item {
+    margin-top: 8%;
+    margin-left: 50px;
+    width: 550px;
+   z-index: 10;
+   position: absolute;
+   color: white; letter-spacing: 2px;
+}
+.overlay_item h1 {
+    font-size: 50px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+    
+}
+.overlay_item h5 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 14px;
+    line-height: 30px;
+}
+.overlay_item button {
+    width: 200px;
+    height: 60px;
+    font-size: 16px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 7px;
+    border: 2px solid #ffffff;
+    font-weight: bolder;
+}
+.button_contain i {
+    font-size: 18px;
+  
+    padding-left: 10px;
+}
+.infor_content {
+    text-align: center;
+   
+ 
+}
+.infor_content h1 {
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    color: white;
+}
+.button_contain {
+    width: 200px;
+    height: 60px;
+    font-size: 16px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 7px;
+    border: 2px solid #ffffff;
+    font-weight: bolder;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.information {
+    background-image: url(./img/banner2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 450px;
+    padding: 100px 0px; 
+	box-shadow: inset 0 0 0 2000px #000000ab
+
+}
+.button_2 {
+    background-color: #ff6600;
+    border-color: #ff6600;
+    transition: all 1s;
+}
+.button_2:hover {
+    opacity: 0.7;
+}
+.button_1{
+    transition: all 1s;
+}
+.button_1:hover {
+    background-color: white;
+    color:rgba(255, 102, 0, 0.911);
+
+}
+.card_number {
+    /* display: flex; */
+ 
+  text-align: center;
+}
+.number_item {
+    margin-top: 50px;
+ 
+  background-color: rgb(255, 255, 255);
+  width: 255px;
+  height: 255px;  margin-left: 50px;
+  border-radius: 5px;
+  box-shadow : 1px 1px 8px rgba(0, 0, 0, 0.096);
+  padding-top: 20px;
+  letter-spacing: 3px;
+}
+.number_item i{
+    font-size: 23px;
+    background-color: #ff6600;
+    border-radius: 100%;
+    padding: 18px ;
+    color: white;
+    margin-top: 20px;
+}
+.number_item h1 {
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+
+.video {
+position: fixed;
+z-index: 10;
+
+bottom: -10px;
+}
+.popup_video {
+    position: relative;
+    width: 600px;
+    height: 500px;
+}
+ .img_video {
+    position: absolute;
+    width: 500px;
+     height: 300px;
+  transition: all .5s;
+    opacity: 1;
+}
+
+
+.cross {
+    position: absolute;
+   
+}
+.footer {
+    margin-top: 500px;
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+ color: white;
+
+
+}
+.footer ul {
+    margin-top: 30px ;
+    margin-left: 10px;
+}
+.footer h4 {
+    margin-left: 35px;
+}
+.footer ul li {
+    list-style: none;
+     padding-top: 10px;
+}   
+.footer ul li a {
+    text-decoration:none;
+    color: rgb(126, 126, 126);
+ 
+
+}
+.footer ul li a:hover {
+    color:rgba(255, 102, 0, 0.911);
+}
+.address p {
+    color: rgb(126, 126, 126);
+    margin-top: 10px;
+}
+.social-links i {
+    background-color: white;
+    padding: 12px;
+    width: 40px;
+    color: #ff6600;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.form-control {
+    height: 60px;
+    
+  
+}
+
+.col-auto button{
+    margin-top: 30px;
+    height: 60px;
+    background-color: #ff6600;
+    border-color: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: bolder;
+    transition: all .5s;
+}
+.col-auto button:hover {
+    background-color: #ff6600e5;
+}
+.newsletter h4 {
+    font-weight: bolder;
+}
+.newsletter p {
+    color: rgb(126, 126, 126);
+}
+.footer-bottom{
+    margin-top: 60px;
+    margin-left: 0px;
+   
+    
+    
+}
+.footer-bottom ul li {
+ 
+    padding: 20px;
+    float:right;
+    display: inline;
+   
+}
+.footer-bottom ul {
+    margin-top: -50px;
+}
